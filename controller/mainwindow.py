@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
         nome = self.nome.text()
         email = self.email.text()
         
-        novo_colaborador = colaborador( nome, email)
+        novo_colaborador = colaborador(None, nome, email)
         funcoes_MainWindow.adicionar(novo_colaborador)
         
         self.janela_cadastro_colaborador.carrega_dados()
