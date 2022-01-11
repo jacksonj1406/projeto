@@ -4,6 +4,8 @@ class colaborador():
         self.id = id
         self.nome = nome
         self.email= email
-        
+    
+    def imprime(self):
+        print(f'{self.id}, {self.nome}, {self.endereco}, {self.telefone}')    
         
         
